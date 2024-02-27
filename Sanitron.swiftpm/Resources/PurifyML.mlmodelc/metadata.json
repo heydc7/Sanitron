@@ -1,0 +1,105 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "label",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "labelProbability",
+        "shortDescription" : ""
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "author" : "Dhanraj Chavan",
+    "specificationVersion" : 1,
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "visionOS" : "1.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_pipelineClassifier",
+      "structure" : [
+        {
+          "name" : "MLModelType_featureVectorizer"
+        },
+        {
+          "name" : "MLModelType_treeEnsembleClassifier"
+        }
+      ]
+    },
+    "inputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "length",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "nonPrint",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "specialChars",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "sqlKeys",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "jsKeys",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Int64",
+        "type" : "Int64",
+        "name" : "cmdKeys",
+        "shortDescription" : ""
+      }
+    ],
+    "classLabels" : [
+      "CMDI",
+      "LEGIT",
+      "SQLI",
+      "XSS"
+    ],
+    "generatedClassName" : "PurifyML",
+    "userDefinedMetadata" : {
+      "com.apple.createml.version" : "14.3.1",
+      "com.apple.createml.app.tag" : "121.3",
+      "com.apple.coreml.model.preview.type" : "tabularClassifier",
+      "com.apple.createml.app.version" : "5.0"
+    },
+    "method" : "predict"
+  }
+]
