@@ -1,7 +1,7 @@
 # Sanitron
 Swift Student Challenge Submission | WWDC 2024
 
-### 🎬 [Watch Preview]() 🎬
+### 🎬 [Watch Preview](https://youtu.be/pNWSLv_FgPA) 🎬
 ![cover](https://github.com/heydc7/Sanitron/assets/39642060/db5991e3-ab70-4ea1-8a79-0e3d5418da75)
 
 My Swift Playground App aims to demonstrate the potential of Machine Learning in identifying various injection attacks that target input fields & implement best practices for validating & sanitizing user input.
